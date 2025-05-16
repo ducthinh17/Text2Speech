@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://doktor.akselinc.com
+
+# Sitemaps
+Sitemap: https://doktor.akselinc.com/sitemap.xml

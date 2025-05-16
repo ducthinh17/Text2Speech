@@ -1,0 +1,46 @@
+.steps-content {
+    display: flex; /* Chia thành 2 cột */
+    align-items: flex-start; /* Canh chỉnh nội dung */
+    gap: 20%;
+    padding: 80px;
+}
+.title{
+    color: rgb(0, 0, 0);
+    padding-bottom: 15px;
+}
+.step-image {
+    width: auto; /* Cài đặt chiều rộng cho ảnh */
+    height: auto; /* Cài đặt chiều cao cho ảnh */
+}
+
+.steps-content-column {
+    margin-left: 20px; /* Khoảng cách giữa ảnh và nội dung */
+}
+
+ol {
+    list-style-type: none; /* Bỏ đánh số mặc định */
+    padding: 0; /* Bỏ khoảng padding */
+}
+
+li {
+    margin-bottom: 20px; /* Khoảng cách giữa các bước */
+    position: relative; /* Để thêm các phần tử tròn */
+    font-size: 20px;
+}
+
+.step-number {
+    background-color: #007bff; /* Màu nền */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    border-radius: 50%; /* Tạo hình tròn */
+    width: 80px; /* Chiều rộng */
+    height: 80px; /* Chiều cao */
+    display: inline-flex; /* Để căn giữa chữ */
+    justify-content: center; /* Căn giữa chữ theo chiều ngang */
+    align-items: center; /* Căn giữa chữ theo chiều dọc */
+    font-weight: bold; /* Đậm */
+    position: absolute; /* Để định vị phần tử */
+    left: -15%; /* Khoảng cách sang bên trái */
+    top: 0;
+    font-size: 50px;
+   
+}

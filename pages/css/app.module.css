@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .formContainer {
+    width: 100%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stepTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .progressBar {
+    margin-bottom: 20px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .prevButton,
+  .nextButton,
+  .submitButton {
+    width: 48%;
+  }
+  
+  .prevButton {
+    background-color: #cccccc;
+    color: #fff;
+  }
+  
+  .nextButton,
+  .submitButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .nextButton:hover,
+  .submitButton:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-input {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+  }
+  
+  .custom-radio-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .custom-textarea {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+  }
+  
+  .custom-textarea::placeholder {
+    color: #bbb;
+  }
+  
+  @media (max-width: 768px) {
+    .formContainer {
+      padding: 20px;
+    }
+  
+    .prevButton,
+    .nextButton,
+    .submitButton {
+      width: 100%;
+    }
+  
+    .buttonGroup {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
